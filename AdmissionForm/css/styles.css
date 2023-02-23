@@ -1,0 +1,172 @@
+body{
+    background-color: cadetblue;
+}
+
+.heading{
+    text-align: center;
+}
+
+.formbody{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(142, 228, 200);
+    border-radius: 5px;
+}
+
+input{
+    width: 40%;
+    height: 25px;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.userdetails{
+    background-color: rgb(142, 228, 200);
+}
+.userdetails > input{
+    width: 79%;
+}
+
+.selectgender{
+    display: flex;
+    /* text-align: left; */
+    width: 80%;
+
+
+}
+.selectgender > .labeltext{
+    display: block;
+    text-align: left;
+    font-size: medium;
+    width: 30%;
+}
+.genderlist{
+    display: block;
+
+}
+
+.gender{
+    width: 23%;
+
+}
+
+img{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+
+
+
+
+/* .firstname, .lastname{
+    width: 39%;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+} */
+.username > input{
+    width: 39%;
+    height: 25px;
+    font-size: 20px;
+}
+
+
+
+.labeltext{
+    display: block;
+    font-family: cursive;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+table , td , tr{
+    border: 1px solid black; 
+    text-align: center;
+    margin: auto;
+}
+table{
+    width: 79%;
+}
+
+td {
+    width: 200px;
+    /* display: inline; */
+}
+/* 
+.hobby{
+    display: block;
+    text-align: center;
+    margin: auto;
+} */
+
+.button{
+    margin: 20px;
+
+}
+/* .btn{
+    height: 50px;
+    border-radius: 7px;
+} */
+
+.flexbox{
+    display: flex;
+    padding: 0;
+}
+.flexbox > input{
+    width: 39%;
+}
+
+.flexbox > span{
+    width: 50%;
+
+}
+.favcolor{
+    display: flex;
+    margin: 20px;
+}
+.favcolor > input{
+    /* margin-left: 20px; */
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.married{
+    display: inline;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.username > select{
+    width: 100px;
+    height: 20px;
+}
+.address{
+    
+    margin-left: 22px;
+}
+.imagebtn{
+
+    height: auto;
+    width: 100px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.imagebtn:hover{
+    background-color: rgb(98, 165, 224);
+}
+
+.btn > input{
+    padding: 10px;
+    height:70px;
+}

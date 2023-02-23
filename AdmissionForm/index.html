@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Admission Form</title>
+
+</head>
+
+<body>
+
+    <h2 class="heading">Admission Form</h2>
+    <img src="./BiprosLogo.png" alt="Image">
+    <form>
+        <div class="formbody">
+            <div class="username">
+                <div class="flexbox">
+                    <span class="labeltext">First Name</span>
+                    <span class="labeltext">Last Name</span>
+                </div>
+
+                <input type="text" name="firstname" class="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" class="lastname" placeholder="Last Name" required>
+
+                <div class="flexbox">
+                    <span class="labeltext">Phone</span>
+                    <span class="labeltext">Date Of Birth</span>
+                </div>
+                <input type="tel" name="phone" placeholder="####-###-###" required>
+                <input type="datetime-local" name="dob" required>
+
+                <div class="flexbox">
+                    <span class="labeltext">Birth Month</span>
+                    <span class="labeltext">Birth Week</span>
+                </div>
+
+                <input type="month" name="firstname" class="firstname" placeholder="First Name" required>
+                <input type="week" name="lastname" class="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="userdetails">
+                <!-- <input type="image"> -->
+
+                <span class="labeltext">Email</span>
+                <input type="email" name="email" placeholder="example@email.com">
+                <br>
+                <div class="selectgender">
+                    <span class="labeltext">Gender : </span>
+
+                    <div class="gender">
+                        <input type="radio" name="gender" value="male">
+                        <br>
+                        <span class="genderlabel">male</span>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="gender" value="female">
+                        <br>
+                        <span class="genderlabel">female</span>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" name="gender" value="other">
+                        <br>
+                        <span class="genderlabel">Other</span>
+                    </div>
+                </div>
+
+                <div class="hobbies">
+                    <span class="labeltext">Hobbies</span>
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <span class="hobby">
+
+                                    <input type="checkbox" name="chess"><br>
+                                    Chess
+                                </span>
+                            </td>
+                            <td>
+                                <span class="hobby">
+
+                                    <input type="checkbox" name="Cricket"><br>
+                                    Cricket
+                                </span>
+                            </td>
+                            <td>
+                                <span class="hobby">
+                                    <input type="checkbox" name="Travelling"><br>
+                                    Travelling
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="hobby">
+                                    <input type="checkbox" name="chess"><br>
+                                    Book Reading
+                                </span>
+                            </td>
+                            <td>
+                                <span class="hobby">
+
+                                    <input type="checkbox" name="Cricket"><br>
+                                    Football
+                                </span>
+                            </td>
+                            <td>
+                                <span class="hobby">
+
+                                    <input type="checkbox" name="Travelling"><br>
+                                    Other
+                                </span>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="favcolor">
+                    <span class="labeltext">Favourite Color : </span>
+                    <input type="color" name="favcolor">
+                </div>
+
+
+                <div class="username">
+                    <div class="flexbox">
+                        <span class="labeltext">Date Of Joining</span>
+                        <span class="labeltext">Your Resume </span>
+                    </div>
+                    <input type="date" name="firstname" class="firstname" placeholder="First Name" required>
+                    <input type="file" name="lastname" class="lastname" placeholder="Last Name" required>
+                </div>
+
+
+                <div class="username">
+                    <span class="labeltext married">Maritual Status : </span>
+                    <select name="maritualstatus" id="marriage" re>
+                        <option value="married">Married</option>
+                        <option value="unmmarried">Unmarried</option>
+                    </select>
+                </div>
+
+
+                <div class="username">
+                    <span class="labeltext married">Qualification </span>
+                    <select name="education"  class="selectarea">
+                        <option value="pg">PG</option>
+                        <option value="ug">UG</option>
+                    </select>
+                </div>
+
+                <div class="username">
+                    <span class="labeltext married" >Language :  </span>
+                    <select name="language" class="selectarea">
+                        <option value="eng">English</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="Odia" >Odia</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+
+                <input type="hidden" name="RegistrationID" value="87231">
+
+                <span class="labeltext">College : </span>
+                <input type="search" name="userpass" placeholder="Eg. IGIT,Sarang">
+
+                <span class="labeltext">Lunch Time</span>
+
+                <div class="username">
+                    <div class="flexbox">
+                        <span class="labeltext">Start</span>
+                        <span class="labeltext">End</span>
+                    </div>
+                    <input type="time" name="starttime" class="firstname" required>
+                    <input type="time" name="endtime" class="lastname" required>
+                </div>
+                <span class="labeltext">Enter Your Portfolio</span>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+
+                <span class="labeltext">Enter Your Addess : </span>
+                <textarea name="address" id="" cols="63" rows="5"></textarea>
+
+
+                <span class="labeltext">Experience</span>
+                <input type="range" name="userpass" placeholder="**********">
+
+
+
+                <span class="labeltext">Password</span>
+                <input type="password" name="userpass" placeholder="**********">
+                <span class="labeltext">Confirm Password</span>
+                <input type="password" name="userpass" placeholder="**********">
+
+                <div class="button">
+                    <input type="submit" value="Submit" class="submitbtn btn">
+                    
+                    <input type="reset" value="Reset" class="resetbtn btn">
+                </div>
+                <!-- <div class="imagebtn">
+                    <input type="image" src="./button2.jpg"  alt="Submit"  > 
+                </div>
+                <div class="btn">
+                    <input type="button" value="Button">
+                </div> -->
+            </div>
+
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>

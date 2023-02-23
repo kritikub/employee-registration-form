@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(171, 233, 233);
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    margin:20px;
+}
+
+.userdetails {
+
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px;
+}
+
+.upperbody{
+    margin:auto;
+    width: 20%;
+    text-align: right;
+}
+
+
+.hobby {
+    margin: auto;
+    width: 20%;
+    text-align: left;
+    
+}
+.hobby input{
+    margin: 0;
+}
+
+.hobby h3{
+    font-size: 2rem;
+}
