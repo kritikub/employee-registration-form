@@ -1,0 +1,54 @@
+.firsttext{
+    background-color: rgb(144, 215, 215);
+    border :2px solid red
+    
+}
+#box{
+    background-color: aquamarine;
+}
+.box-model{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid black;
+    padding: 20px;
+    margin: auto ;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 200px;
+    /* display:  none; */
+}
+
+table , th , tr , td{
+    margin: 200px 100px;
+    
+}
+th,td,tr{
+    border: 1px solid black;
+    padding:  10px;
+}
+td{
+    height: 50px;
+    width: 100px;
+    text-align: right;
+    vertical-align:top;
+}
+
+.displayspan{
+    color: rgb(247, 19, 19);
+    display: inline-block
+}
+
+h2{
+    display: inline;
+}
+
+.box1 , .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    border: 5px dotted black;
+    padding: 10px;
+}
