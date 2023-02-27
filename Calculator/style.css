@@ -1,0 +1,12 @@
+.main_container{
+    display: grid;
+    place-items: center;
+}
+.inner_container{
+    grid-template-columns: 30% 10% 30%  30% ;
+    margin-top: 5rem;
+}
+
+.resultbtn{
+    margin-top: 2rem;
+}
