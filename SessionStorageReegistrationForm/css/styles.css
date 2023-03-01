@@ -1,0 +1,76 @@
+
+
+.main_container {
+    display: grid;
+    place-items: center;
+}
+
+.inner_container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 13rem 13rem;
+    padding: 4rem;
+    gap: 1.8rem;
+    background-color:rgb(89, 94, 94);
+}
+
+input {
+    border-radius: 0.5em;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+textarea{
+    border-radius: 0.5rem;
+    height: 4rem;
+}
+
+button{
+    border-radius: 0.7rem;
+    background-color: rgb(183, 126, 237);
+}
+
+
+.button_submit{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    place-items: center;
+}
+.button_submit > button{
+    height: 2rem;
+    width: 50%;
+}
+
+.inner_container > input{
+   display: grid;
+   place-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+textarea{
+    resize: none;
+}
+
+
+.button_show{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    place-items: center;
+}
+#show{
+    height: 2rem;
+    width: 40%;
+}
+

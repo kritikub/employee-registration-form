@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <h1 class="eg">Student Form</h1>
+        <hr>
+        <form   id="student_form" onsubmit="return false">
+            <div class="inner_container">
+
+                <div class="id item">
+                    <label for="">ID</label>
+                    <input type="number" name="student_id">
+                </div>
+                <div class="name item">
+                    <label for="">Name</label>
+                    <input type="text" name="student_name">
+                </div>
+                <div class="dept item">
+                    <label for="">Department</label>
+                    <input type="text" name="student_dept">
+                </div>
+                <div class="dob item">
+                    <label for="">DOB</label>
+                    <input type="date"  name="student_dob" max="2023-02-23" value="">
+                    
+                </div>
+                <div class="hobbies item">
+                    <label for="">Hobbies</label>
+                    <textarea name="hobbies" id="" cols="30" name="student_hobby"></textarea>
+                </div>
+
+                <div class="button_submit">
+                    <button id="save" type="submit">Save</button>
+                </div>
+                <div class="button_show">
+                    <button id="show" onclick="window.location='./result.html'" >Show Items</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

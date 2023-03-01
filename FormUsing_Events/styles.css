@@ -1,0 +1,25 @@
+.main_container{
+    display: grid;
+    place-items: center;
+}
+
+.inner_container{
+    width: 80%;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr ;
+}
+input{
+    margin: 10px;
+}
+
+.event_reader{
+    grid-column-start: 1;
+    grid-column-end : 3;
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+
